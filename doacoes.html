@@ -1,60 +1,7 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Doações - App Solidário</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header>
-    <header class="header-principal">
-    <img src="logo.jpg" alt="Doações" class="logo-grande">
-    </header>
-  </header>
-
-  <section>
-    <div class="card">
-      <h2>Escolha sua opção:</h2>
-      <a href="#vestuario" class="btn">1. Doar Vestuário</a>
-      <a href="#alimentos" class="btn">2. Doar Alimentos</a>
-    </div>
-  </section>
-
-  <section id="vestuario">
-    <h2>Doar Vestuário</h2>
-    <form id="formVestuario">
-      <label>Nome:</label>
-      <input type="text" name="nome" required>
-      <label>Tipo de roupa:</label>
-      <input type="text" name="tipo" required>
-      <label>Quantidade:</label>
-      <input type="number" name="quantidade" required>
-      <label>Telefone:</label>
-      <input type="tel" name="telefone" required>
-      <button type="submit" class="btn">Enviar Doação</button>
-    </form>
-  </section>
-
-  <section id="alimentos">
-    <h2>Doar Alimentos</h2>
-    <form id="formAlimentos">
-      <label>Nome:</label>
-      <input type="text" name="nome" required>
-      <label>Tipo de alimento:</label>
-      <input type="text" name="tipo" required>
-      <label>Quantidade (kg ou unidades):</label>
-      <input type="text" name="quantidade" required>
-      <label>Telefone:</label>
-      <input type="tel" name="telefone" required>
-      <button type="submit" class="btn">Enviar Doação</button>
-    </form>
-  </section>
-
-  <footer>
-    <p>&copy; 2026 App Solidário</p>
-  </footer>
-
-  <script src="script.js"></script>
-</body>
-</html>
+<!-- Submenu Doações -->
+  <div id="doacoes" class="submenu">
+    <h2>Doações</h2>
+    <button onclick="abrirFormulario('vestuarioDoacao')">Doações de Vestuário</button>
+    <button onclick="abrirFormulario('alimentosDoacao')">Doações de Alimentos</button>
+    <br><button class="voltar" onclick="voltarMenu()">Voltar ao Menu Principal</button>
+  </div>

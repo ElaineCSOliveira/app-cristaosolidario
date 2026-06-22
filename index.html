@@ -7,45 +7,15 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="header-principal">
-    <img src="logo.jpg" class="logo-grande">
-    <p class="subtitulo">Doações e trocas de alimentos e roupas</p>
+  <header>
+    <img src="logo.jpg" alt="Logo App Solidário">
+    <h1>App Solidário</h1>
   </header>
 
-  <nav>
-    <a href="#doacoes">Doações</a>
-    <a href="#trocas">Trocas</a>
-    <a href="#contato">Contato</a>
+  <nav id="menu-principal">
+    <button onclick="abrirSubmenu('doacoes')">Doações</button>
+    <button onclick="abrirSubmenu('trocas')">Trocas</button>
   </nav>
-
-  <section id="doacoes">
-    <h2>Doações</h2>
-    <div class="card">
-      <p>Ajude nossa comunidade com alimentos e roupas.</p>
-      <a href="#" class="btn">Quero doar</a>
-    </div>
-  </section>
-
-  <section id="trocas">
-    <h2>Trocas</h2>
-    <div class="card">
-      <p>Troque roupas e alimentos com outras famílias.</p>
-      <a href="#" class="btn">Quero trocar</a>
-    </div>
-  </section>
-
-  <section id="contato">
-    <h2>Contato</h2>
-    <div class="card">
-      <p>Endereço: Igreja Católica São José</p>
-      <p>Telefone: (21) 99999-9999</p>
-      <p>Email: contato@appsolidario.org</p>
-    </div>
-  </section>
-
-  <footer>
-    <p>&copy; 2026 App Solidário - Igreja Católica</p>
-  </footer>
 
   <script src="script.js"></script>
 </body>

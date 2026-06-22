@@ -1,62 +1,8 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Trocas - App Solidário</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header>
-    <header class="header-principal">
-    <img src="logo.jpg" alt="Trocas" class="logo-grande">
-    </header>
-  </header>
-
-  <section>
-    <div class="card">
-      <h2>Escolha sua opção:</h2>
-      <a href="#vestuario" class="btn">1. Trocar Vestuário</a>
-      <a href="#alimentos" class="btn">2. Trocar Alimentos</a>
-    </div>
-  </section>
-
-  <section id="vestuario">
-    <h2>Trocar Vestuário</h2>
-    <form id="formTrocaVestuario">
-      <label>Nome:</label>
-      <input type="text" name="nome" required>
-      <label>Roupa que deseja trocar:</label>
-      <input type="text" name="roupa" required>
-      <label>Roupa que deseja receber:</label>
-      <input type="text" name="desejo" required>
-      <label>Telefone:</label>
-      <input type="tel" name="telefone" required>
-      <button type="submit" class="btn">Enviar Solicitação</button>
-    </form>
-  </section>
-
-  <section id="alimentos">
-    <h2>Trocar Alimentos</h2>
-    <form id="formTrocaAlimentos">
-      <label>Nome:</label>
-      <input type="text" name="nome" required>
-      <label>Alimento que deseja trocar:</label>
-      <input type="text" name="alimento" required>
-      <label>Alimento que deseja receber:</label>
-      <input type="text" name="desejo" required>
-      <label>Telefone:</label>
-      <input type="tel" name="telefone" required>
-      <button type="submit" class="btn">Enviar Solicitação</button>
-    </form>
-  </section>
-
-  <footer>
-    <p>&copy; 2026 App Solidário</p>
-  </footer>
-
-  <script src="script.js"></script>
-</body>
-</html>
-
+ <!-- Submenu Trocas -->
+  <div id="trocas" class="submenu">
+    <h2>Trocas</h2>
+    <button onclick="abrirFormulario('vestuarioTroca')">Trocas de Vestuário</button>
+    <button onclick="abrirFormulario('alimentosTroca')">Trocas de Alimentos</button>
+    <br><button class="voltar" onclick="voltarMenu()">Voltar ao Menu Principal</button>
+  </div>
 

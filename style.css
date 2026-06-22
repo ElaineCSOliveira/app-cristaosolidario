@@ -9,12 +9,13 @@ header {
   background: #4CAF50;
   color: white;
   text-align: center;
-  padding: 20px;
+  padding: 30px 10px;
 }
 
-.logo {
-  max-width: 120px;
-  margin-bottom: 10px;
+.logo-grande {
+  max-width: 220px;
+  height: auto;
+  display
 }
 
 nav {

@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Segoe UI', Arial, sans-serif;
   margin: 0;
   background: #f9f9f9;
   color: #333;
@@ -12,9 +12,9 @@ header {
   padding: 20px;
 }
 
-header h1 {
-  margin: 0;
-  font-size: 24px;
+.logo {
+  max-width: 120px;
+  margin-bottom: 10px;
 }
 
 nav {
@@ -46,14 +46,29 @@ section {
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
 .btn {
-  display: inline-block;
+  display: block;
   background: #4CAF50;
   color: white;
   padding: 10px 15px;
   border-radius: 5px;
   text-decoration: none;
-  margin-top: 10px;
+  margin: 10px 0;
+  text-align: center;
+  border: none;
+  cursor: pointer;
 }
 
 .btn:hover {
